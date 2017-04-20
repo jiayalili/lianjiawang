@@ -1,0 +1,337 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+
+
+
+
+/*搜索部分*/
+.search{
+	height: 72px;
+	background-color: #edeff1;
+}
+.search .wrapper{
+	width: 1000px;
+	margin: 0px auto;
+	position: relative;
+}
+.search .wrapper input{
+	width: 360px;
+	height: 37px;
+	border: none;
+	box-shadow: 0px 1px 1px rgb(0,0,0,0.1);
+	margin-top: 18px;
+	padding-left: 12px;
+}
+.search .wrapper button{
+	width: 37px;
+	height: 37px;
+	border: none;
+	background-color: #f15044;
+	vertical-align: middle;
+	margin-left:-4px;
+	background-image: url("../image2/btn-search.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.search .wrapper span{
+	font-size: 12px;
+	color: #555;
+	margin-left: 18px;
+}
+.search .wrapper a{
+	display: inline-block;
+	width: 104px;
+	height: 36px;
+	background-color: #39ac6a;	
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	line-height: 36px;
+	position: absolute;
+	right: 0px;
+	top: 18px;
+}
+.search .wrapper a i{
+	display: inline-block;
+	width: 12px;
+	height: 17px;
+	background-image: url("../image2/match-icon.png");
+	background-position: -110px -70px;
+	vertical-align: middle;
+}
+.search .wrapper img{
+	width: 103px;
+	height: 141px;
+	position: absolute;
+	bottom: -20px;
+	right: -80px;
+}
+
+
+
+
+/*苏州链家网部分*/
+.suzhou .wrapper{
+	width: 1000px;
+	margin: 0px auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #eaeaea;
+}
+.suzhou .wrapper i{
+	display: inline-block;
+	width: 14px;
+	height:14px;
+	background-image: url("../image2/breadcrumb.png"); 
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.suzhou .wrapper a{
+	color: #555555;
+	font-size: 12px;
+}
+.suzhou .wrapper span{
+	font-size: 12px;
+	color: #999;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+
+
+
+
+/*区域部分*/
+.quyu{}
+.quyu .wrapper{
+	width: 1000px;
+	margin: 0px auto;
+}
+.quyu .wrapper .div{
+	width: 100%;
+	height: 35px;
+	font-size: 12px;
+	line-height: 35px;
+}
+
+.quyu .wrapper .div span.head{
+	float: left;
+	color: #333;
+	font-weight: 700;
+}
+.quyu .wrapper .div ul{
+	float: left;
+}
+.quyu .wrapper .div ul li{
+	float: left;
+	margin-right: 20px;
+}
+.quyu .wrapper .div ul li.span{
+	margin-right: 5px;
+	margin-left: -15px;
+}
+.quyu .wrapper .div ul li a{
+	color: #333;
+}
+.quyu .wrapper .div ul li a.active{
+	color: #00ae66;
+}
+.quyu .wrapper .div ul li input{
+	width: 23px;
+	padding: 0px 10px 0px 10px;
+	vertical-align: middle;
+
+}
+.quyu .wrapper .check ul li{
+	margin-right: 45px;
+}
+
+.quyu .content{
+	text-align: center;
+	color: #666;
+	font-size: 12px;
+}
+.quyu .content i{
+	display: inline-block;
+	width: 10px;
+	height: 7px;
+	background-image: url("../image2/collapse2x.png");
+	transform: rotate(180deg);
+	margin-left: 10px;
+}
+
+
+
+
+/*全部楼盘部分*/
+.a{
+}
+.a .wrapper{
+	width: 1000px;
+	margin: 0px auto;
+}
+.a .wrapper .left{
+	float: left;
+	padding-top: 40px;
+}
+.a .wrapper .left a{
+	display: inline-block;
+	width: 90px;
+	height: 34px;
+	line-height: 34px;
+	color: #999;
+	font-size: 14px;
+	background-color: #fff;
+	text-align: center;
+}
+.a .wrapper .left a.active{
+	color: #fff;
+	background-color: #666;
+}
+.a .wrapper .right{
+	float: right;
+	padding-top: 40px;
+}
+.a .wrapper .right a{
+	display: inline-block;
+	width: 128px;
+	height: 34px;
+	border: 1px solid #e4e4e4;
+	color: #333;
+	font-size: 14px;
+	border-radius: 2px;
+	text-align: center;
+	line-height: 34px;
+	margin-left: 5px;
+}
+.a .wrapper .right a.active{
+	color: #00ae66;
+	border: 1px solid #00ae66;
+}
+.a .wrapper .right a i{
+	display: inline-block;
+	width: 10px;
+	height: 8px;
+	background-image: url("../image2/arrow-default.svg");
+	background-size: 10px 8px;
+}
+
+
+
+/*图片部分*/
+.img{
+
+}
+.img .wrapper{
+	width: 1000px;
+	margin: 10px auto;
+}
+.img .wrapper ul li{
+	width: 100%;
+	height: 174px;	
+	cursor: pointer;
+	padding: 32px 0px 32px 0px;
+	border-bottom: 1px solid #eaeaea;
+}
+.img .wrapper ul li .left{
+	float: left;
+}
+.img .wrapper ul li .left img{
+	width: 239px;
+	height: 174px;
+}
+.img .wrapper ul li .middle{
+	float: left;
+	color: #000;
+	margin-left: 25px;
+	font-size: 14px;
+}
+.img .wrapper ul li .middle div{
+	height: 45px;
+	line-height: 45px;
+}
+.img .wrapper ul li .middle div a{
+	color: #000;
+}
+.img .wrapper ul li .middle div:nth-of-type(1) a:nth-of-type(1){
+	font-size: 20px;
+	font-weight: 700;
+	margin-right: 8px;
+	vertical-align: middle;
+}
+.img .wrapper ul li .middle div:nth-of-type(1) a:nth-of-type(2){
+	display: inline-block;
+	padding: 0 5px;
+	background-color: #00ae66;
+	vertical-align: middle;
+	line-height: 27px;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	border-radius: 2px;
+}
+.img .wrapper ul li .middle div:nth-of-type(1) a:nth-of-type(3){
+	display: inline-block;
+	padding: 0 5px;
+	background-color: #ff764c;
+	vertical-align: middle;
+	line-height: 27px;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	border-radius: 2px;
+}
+.img .wrapper ul li .middle div:nth-of-type(2){
+	margin-left: -7px;
+}
+.img .wrapper ul li .right{
+	float: right;
+	height: 174px;
+	line-height: 174px;
+	margin-right: 10px;
+}
+.img .wrapper ul li .right span{
+	color: #000;
+	font-size: 18px;
+	font-weight: 500;
+}
+.img .wrapper ul li .right span.right_m{
+	font-size: 30px;
+	color: #f15044;
+	font-weight:700;
+}
+
+
+
+
+/*分页部分*/
+.part{
+	width: 300px;
+	margin: 0px auto;
+	padding: 20px;
+}
+.part a{
+	display: inline-block;
+	color: #555;
+	height: 30px;
+	padding: 0px 12px;
+	border: 1px solid #b0b4b9;
+	font-size: 12px;
+	line-height: 30px;
+	margin-left: 8px;
+}
+.part .active{
+	background-color: #f15044;
+	border: 1px solid #f15044;
+}
+
+
+
